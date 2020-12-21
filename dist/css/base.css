@@ -1,0 +1,119 @@
+@import url("http://fonts.googleapis.com/earlyaccess/notosanskr.css");
+/* Reset */
+body, h1, h2, h3, h4, h5, h6,
+div, p, blockquote, pre, address,
+ul, ol, li, dl, dt, dd,
+table, caption, th, td,
+form, fieldset, legend,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+table {
+  margin: 0;
+  padding: 0;
+  border-spacing: 0;
+  border: 0;
+  _border-collapse: collapse;
+}
+
+* + html table {
+  border-collapse: collapse;
+}
+
+img, fieldset, abbr, acronym {
+  border: 0;
+}
+
+address, caption, cite, code, dfn, em, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+q:before, q:after {
+  content: '';
+}
+
+input, select, button, textarea {
+  color: #333;
+  font-size: 100%;
+  font-family: 'Noto Sans KR',sans-serif;
+  vertical-align: middle;
+}
+
+/* Base */
+body {
+  color: #333;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: 'Noto Sans KR',sans-serif;
+}
+
+hr {
+  display: none;
+}
+
+caption, legend,
+#skipNavi {
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+input.text,
+input.pswd,
+textarea.textarea {
+  padding: 0 0 0 5px;
+  margin: 0;
+  border: 1px solid #000;
+}
+
+label,
+input.button, input.submit, input.image,
+button {
+  cursor: pointer;
+}
+
+textarea, pre {
+  overflow: auto;
+}
+
+.hide {
+  position: absolute;
+  top: 0;
+  left: -99999px;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+/*html5*/
+article, aside, dialog, footer, header, section, nav, figure, menu {
+  display: block;
+}
+
+img {
+  vertical-align: top;
+}
+
+fieldset {
+  display: block;
+}
